@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+
+
+/* all */
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+p {
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 5px;
+}
+
+
+/*----- header --------*/
+/* search */
+.search {
+    background-color: rgb(234, 233, 233);
+}
+.search .container{
+    height: 160px;
+    display: flex;
+    gap: 20px;
+    padding: 32px 0 0 86px; 
+}
+
+/* logo */
+.alllogo {
+    width: 186px;
+    height: 98px;
+}
+
+.alllogo p {
+    font-size: 14px;
+    line-height: 16.41px;
+    margin: 0 auto;
+}
+
+
+/* search */
+.allsearch {
+    width: 638px;
+    height: 69px;
+    margin: 20px 110px;
+    
+}
+
+.allsearch input {
+    width: 520px;
+    height: 44px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 18.75px;
+    border-color: rgba(202, 202, 202, 1);
+}
+
+.allsearch button {
+    background-color: rgba(62, 120, 80, 1);
+    width: 119px;
+    height: 44px;
+    border-color: rgba(62, 120, 80, 1);
+    font-weight: 300;
+    color: white;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.buttnplaceholder {
+    display: flex;
+}
+
+.allsearch p {
+    font-size: 14px;
+    line-height: 16.41px;
+    padding-top: 10px;
+    color: rgba(180, 180, 180, 1);
+}
+
+.allsearch a {
+    color: rgb(56, 143, 210);
+}
+
+/* phones */
+.allphone {
+    width: 500px;
+    height: 77px;
+    text-align: right;
+    padding: 10px 50px 0 0;
+    gap: 5px;
+}
+
+#phone {
+    font-size: 14px;
+    line-height: 16.41px;
+    color: rgba(104, 104, 104, 1);
+}
+
+
+.phtwo {
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+#phthree {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: rgba(104, 104, 104, 1);
+}
+
+
+/* pages */
+.pages {
+    border-bottom: 2px;
+    border-color: rgba(104, 104, 104, 1);
+}
+
+.pages nav ul {
+    display: flex;
+    font-size: 18px;
+    line-height: 21.09px;
+    list-style: none;
+    padding: 20px 113px;
+    gap: 58px;
+    color: rgba(35, 35, 35, 1);
+}
+
+
+
+
+
+
+
+
+
+
+/* info */
+.info {
+    height: 561px;
+    background-image: url(../img/Vector.png);
+
+    display: flex;
+    width: 1532px;
+    height: 561px;
+}
+
+.info #Vector1 {
+    width: 364px;
+    height: 425px;
+    margin: 0 auto;
+}
+
+
+
+
+/* text top */
+.mtext {
+    height: 60px;
+    width: 1440px;
+    margin-top: 25px;
+}
+
+.mtext #catalog {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.mtext img {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* info */
+.info {
+    height: 561px;
+    background-image: url(../img/Vector.png);
+
+    display: flex;
+    width: 1532px;
+    height: 561px;
+}
+
+.info #Vector1 {
+    width: 364px;
+    height: 425px;
+    margin: 0 auto;
+}
+
+
+
+
+/* text top */
+
+
+.mtext #catalog {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    padding: 65px 0 0 630px;
+}
+
+.mtext img {
+    padding: 13px 0 0 680px;
+}
+
+
+
+
+
+
+
+
+
+
+/* main */
+
+
+#main {
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 42.19px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.main {
+    width: 1090px;
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    margin-bottom: 50px;
+    justify-content: end;
+}
+
+
+/* mini */
+.mainall {
+    display: flex;
+    gap: 10px;
+    margin: 40px 0 0 158px;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.mainscl {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/* all osn */
+
+h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 32.81px;
+}
+
+/* green & black */
+.greenblack {
+    display: flex;
+    gap: 10px;
+}
+
+#green {
+    color: rgba(62, 120, 80, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+#black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* opisanie */
+.opis {
+    width: 1440px;
+    margin: 0 auto;
+    padding-left: 350px;
+}
+
+#opis {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 32.81px;
+}
+
+.text {
+    width: 864px;
+    height: 231px;
+    margin-top: 10px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+#tt {
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/* white */
+.white {
+    width: 1440px;
+    height: 623px;
+    display: flex;
+}
+
+
+/* white first */
+.wh1 {
+    width: 340px;
+    height: 320px;
+    padding: 95px 0 0 165px;
+}
+
+
+/* whi 1 */
+.whi1 {
+    width: 270px;
+    height: 60px;
+}
+
+#whobsv {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42.20px;
+}
+
+
+/* whi 2 */
+.whi2 {
+    width: 340px;
+    height: 52px;
+    padding: 46px 0 0 0;
+}
+
+.whi2 h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23.50px;
+} 
+
+.whi2 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 5px;
+}
+
+
+/* wh footer */
+.yasall {
+    display: flex;
+    width: 485px;
+    height: 50px;
+    padding-top: 490px;
+    padding-left: -50px;
+}
+
+.label #label {
+    width: 100px;
+    height: 32px;
+
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16.50px;
+}
+
+button {
+    background-color: rgba(62, 120, 80, 1);
+    width: 160px;
+    height: 44px;
+    border-color: rgba(62, 120, 80, 1);
+    border-radius: 3px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    display: block;
+    transition: all 500ms ease;
+}
+
+button:hover {
+    background-color: aliceblue;    
+    border-radius: 10px;
+    color: black;
+
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------- white--------- */
+.white {
+    margin: 0 auto;
+    padding-left: 250px;
+}
+.white .container {
+    display: flex;
+    padding: 100px 0;
+}
+.white-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.whi {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.whi h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.50px;
+} 
+.whi1 h2 {
+    font-weight: 600;
+} 
+
+
+
+/* form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 250px;
+}
+.buttons {
+    background-color: rgba(62, 120, 80, 1);
+    width: 160px;
+    height: 44px;
+    border-color: rgba(62, 120, 80, 1);
+    border-radius: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: block;
+    transition: all 500ms ease;
+}
+.buttons:hover {
+    background-color: aliceblue;    
+    border-radius: 10px;
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.input {
+    padding-left: 15px;
+    line-height: 21px;
+    height: 48px;
+    display: block;
+}
+textarea {
+    height: 208px;
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+
+/*------ footer ---------*/
+footer {
+    background-color: black;
+    color: white;
+    padding-left: 160px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+footer .container {
+    display: flex;
+}
+
+.footlogo {
+    width: 125px;
+}
+
+.footlogo p {
+    font-size: 8px;
+    line-height: 9.38px;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.allfoot {
+    display: flex;
+    gap: 50px;
+    padding: 12px 0 0 30px;
+}
+
+#afprava {
+    padding: 1px 0 0 438px;
+}
+
+#sms {
+    height: 120px;
+    padding: 20px 10px;
+}
